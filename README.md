@@ -5,6 +5,13 @@
 - @EnableJpaAuditing 
    Annotation to enable auditing in JPA via annotation configuration.
 
+### URLs
+
+|     Method       |     URL          |
+| ------------- | ------------- |
+| POST: JPA Auditing | http://localhost:8080/byteprogramming/jpaAudit/attendance|
+
+
 ### DB Screen
 ![H2-CONSOLE](H2-CONSOLE.png)
 
