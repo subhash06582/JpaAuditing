@@ -1,0 +1,31 @@
+{
+	"variables": [],
+	"info": {
+		"name": "JPA-AUDITING",
+		"_postman_id": "a0dc095a-1035-a2e5-c52f-5cb28715f03c",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/byteprogramming/jpaAudit/attendance",
+			"request": {
+				"url": "http://localhost:8080/byteprogramming/jpaAudit/attendance",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"empId\": 1,\n\t\"effectiveDt\": \"2021-05-21\",\n\t\"present\": true\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
